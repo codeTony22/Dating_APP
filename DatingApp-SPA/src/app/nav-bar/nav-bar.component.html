@@ -12,10 +12,6 @@
       <li class="nav-item col-sm-6" routerLinkActive="active">
         <a class="nav-link" [routerLink]="['/messages']" >Messages</a>
       </li>
-
-      <li class="nav-item col-sm-6" routerLinkActive="active">
-        <a class="nav-link" (click)="logOut()" >LogOut</a>
-      </li>
     </ul>
 
     <div *ngIf="loggedIn()" class="dropdown" dropdown>
@@ -24,10 +20,15 @@
       </a>
 
       <div class="dropdown-menu mt-3" *dropdownMenu>
-        <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Edit Profile</a>
-        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" [routerLink]="['/members/edit']">
+          <i class="fa fa-user"></i> Edit Profile
+        </a>
+        <div class="dropdown-divider">
+        </div>
         <!-- <a class="dropdown-item" href="#">Another action</a> -->
-        <a class="dropdown-item" (click)="logOut()"><i class="fa fa-sign-out"></i> Logout</a>
+        <a class="dropdown-item" (click)="logOut()">
+          <i class="fa fa-sign-out"></i> Logout
+        </a>
       </div>
     </div>
 
