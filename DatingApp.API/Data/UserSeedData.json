@@ -15,14 +15,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/women/3.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Non deserunt labore sunt ex laboris et adipisicing ullamco officia minim."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "Admin"
-          }
       ]
     },
     {
@@ -41,14 +36,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/women/49.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Elit culpa eu excepteur ut elit tempor nulla duis dolore."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "Operations"
-          }
       ]
     },
     {
@@ -67,14 +57,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/women/24.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Veniam dolore nisi magna laboris minim id pariatur officia."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "Support"
-          }
       ]
     },
     {
@@ -93,14 +78,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/women/74.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Veniam velit amet tempor laboris reprehenderit deserunt quis do veniam."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "Support"
-          }
       ]
     },
     {
@@ -119,14 +99,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/women/33.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Ipsum enim cillum ad nisi consequat cillum ipsum ullamco tempor."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "User"
-          }
       ]
     },
     {
@@ -145,14 +120,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/men/90.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Irure cupidatat magna aute et dolore aliquip reprehenderit dolor irure."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "PremiumUser"
-          }
       ]
     },
     {
@@ -171,14 +141,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/men/96.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Magna duis consectetur sit ut commodo non eiusmod."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "PremiumUser"
-          }
       ]
     },
     {
@@ -197,14 +162,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/men/4.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Cupidatat veniam ea magna cillum velit minim non minim tempor ipsum excepteur."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "User"
-          }
       ]
     },
     {
@@ -223,14 +183,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/men/76.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Amet officia enim pariatur mollit tempor in ut."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "Admin"
-          }
       ]
     },
     {
@@ -249,14 +204,9 @@
       "Photos": [
         {
           "url": "https://randomuser.me/api/portraits/men/14.jpg",
-          "IsMain": true,
+          "isMain": true,
           "description": "Nulla nisi tempor sint cillum aliqua esse aute."
         }
-      ],
-      "Roles": [
-          {
-              "Role": "User"
-          }
       ]
     }
   ]

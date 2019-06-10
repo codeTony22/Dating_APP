@@ -14,7 +14,6 @@ namespace DatingApp.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-
         private readonly DataContext _context;
         public ValuesController(DataContext context)
         {
@@ -32,6 +31,7 @@ namespace DatingApp.API.Controllers
         }
 
         // GET api/values/5
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetValue(int id)
         {
@@ -41,12 +41,11 @@ namespace DatingApp.API.Controllers
         }
 
         // POST api/values
-        
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
-        [AllowAnonymous]
+
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
